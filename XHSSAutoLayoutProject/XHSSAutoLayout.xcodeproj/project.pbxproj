@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903ACBD52705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.m in Sources */ = {isa = PBXBuildFile; fileRef = 903ACBD42705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.m */; };
 		9083D3D3270420240040B31D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3D2270420240040B31D /* AppDelegate.m */; };
 		9083D3D6270420240040B31D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3D5270420240040B31D /* SceneDelegate.m */; };
 		9083D3D9270420240040B31D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3D8270420240040B31D /* ViewController.m */; };
@@ -14,8 +15,6 @@
 		9083D3DE270420260040B31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9083D3DD270420260040B31D /* Assets.xcassets */; };
 		9083D3E1270420260040B31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9083D3DF270420260040B31D /* LaunchScreen.storyboard */; };
 		9083D3E4270420260040B31D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3E3270420260040B31D /* main.m */; };
-		9083D3EE270420260040B31D /* XHSSAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3ED270420260040B31D /* XHSSAutoLayoutTests.m */; };
-		9083D3F9270420260040B31D /* XHSSAutoLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3F8270420260040B31D /* XHSSAutoLayoutUITests.m */; };
 		9083D419270420B10040B31D /* picture_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9083D409270420B10040B31D /* picture_1.png */; };
 		9083D41A270420B10040B31D /* UIView+XHSSAutoLayoutProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D40C270420B10040B31D /* UIView+XHSSAutoLayoutProperty.m */; };
 		9083D41B270420B10040B31D /* UIView+XHSSAutoLayoutFrameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9083D40E270420B10040B31D /* UIView+XHSSAutoLayoutFrameUtils.m */; };
@@ -44,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		903ACBD32705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHSSAutoLayoutConvenientWidgets.h; sourceTree = "<group>"; };
+		903ACBD42705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHSSAutoLayoutConvenientWidgets.m; sourceTree = "<group>"; };
 		9083D3CE270420240040B31D /* XHSSAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHSSAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9083D3D1270420240040B31D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9083D3D2270420240040B31D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,11 +58,7 @@
 		9083D3E2270420260040B31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9083D3E3270420260040B31D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9083D3E9270420260040B31D /* XHSSAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHSSAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9083D3ED270420260040B31D /* XHSSAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHSSAutoLayoutTests.m; sourceTree = "<group>"; };
-		9083D3EF270420260040B31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9083D3F4270420260040B31D /* XHSSAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHSSAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9083D3F8270420260040B31D /* XHSSAutoLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHSSAutoLayoutUITests.m; sourceTree = "<group>"; };
-		9083D3FA270420260040B31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9083D409270420B10040B31D /* picture_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture_1.png; sourceTree = "<group>"; };
 		9083D40B270420B10040B31D /* XHSSAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSSAutoLayout.h; sourceTree = "<group>"; };
 		9083D40C270420B10040B31D /* UIView+XHSSAutoLayoutProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XHSSAutoLayoutProperty.m"; sourceTree = "<group>"; };
@@ -108,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				9083D3D0270420240040B31D /* XHSSAutoLayout */,
-				9083D3EC270420260040B31D /* XHSSAutoLayoutTests */,
-				9083D3F7270420260040B31D /* XHSSAutoLayoutUITests */,
 				9083D3CF270420240040B31D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,28 +140,12 @@
 			path = XHSSAutoLayout;
 			sourceTree = "<group>";
 		};
-		9083D3EC270420260040B31D /* XHSSAutoLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				9083D3ED270420260040B31D /* XHSSAutoLayoutTests.m */,
-				9083D3EF270420260040B31D /* Info.plist */,
-			);
-			path = XHSSAutoLayoutTests;
-			sourceTree = "<group>";
-		};
-		9083D3F7270420260040B31D /* XHSSAutoLayoutUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9083D3F8270420260040B31D /* XHSSAutoLayoutUITests.m */,
-				9083D3FA270420260040B31D /* Info.plist */,
-			);
-			path = XHSSAutoLayoutUITests;
-			sourceTree = "<group>";
-		};
 		9083D40A270420B10040B31D /* AutoLayoutTool */ = {
 			isa = PBXGroup;
 			children = (
 				9083D40B270420B10040B31D /* XHSSAutoLayout.h */,
+				903ACBD32705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.h */,
+				903ACBD42705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.m */,
 				9083D415270420B10040B31D /* UIView+XHSSAutoLayoutProperty.h */,
 				9083D40C270420B10040B31D /* UIView+XHSSAutoLayoutProperty.m */,
 				9083D40D270420B10040B31D /* UIView+XHSSAutoLayoutPointAndValueUtils.h */,
@@ -323,6 +302,7 @@
 				9083D41F270420B10040B31D /* UIView+XHSSAutoLayoutPointAndValueUtils.m in Sources */,
 				9083D3E4270420260040B31D /* main.m in Sources */,
 				9083D41C270420B10040B31D /* UIView+XHSSAutoLayoutCore.m in Sources */,
+				903ACBD52705A80C0000F084 /* XHSSAutoLayoutConvenientWidgets.m in Sources */,
 				9083D3D6270420240040B31D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9083D3EE270420260040B31D /* XHSSAutoLayoutTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9083D3F9270420260040B31D /* XHSSAutoLayoutUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

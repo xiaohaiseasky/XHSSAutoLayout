@@ -2,7 +2,7 @@
 //  ViewController.m
 //  XHSSAutoLayout
 //
-//  Created by KFZX-SHZJ on 2021/9/29.
+//  Created by XHSS on 2021/9/26.
 //
 
 #import "ViewController.h"
@@ -131,12 +131,7 @@
     logleText.marginLeftValue = 4;
     [logleContainerView addSubview:logleText];
     
-    UIImageView* space = [[UIImageView alloc] init];  // warning : flex = layoutFlex & layoutSizeMode
-    space.layoutFlex = 1;
-    space.layoutSizeMode = XHSSLayoutSizeMode_Flexable;
-    space.layoutWidth = 30;
-    space.layoutHeight = 30;
-    [logleContainerView addSubview:space];
+    [logleContainerView addSubview:[XHSSAutoLayoutConvenientWidgets flexSpace]];
     
     UIImageView* loginIcon = [[UIImageView alloc] init];
     loginIcon.image = [UIImage imageNamed:@"picture_1"];

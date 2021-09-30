@@ -7,6 +7,7 @@
 
 
 #import "UIView+XHSSAutoLayoutCore.h"
+#import "XHSSAutoLayoutConvenientWidgets.h"
 
 
 /*
