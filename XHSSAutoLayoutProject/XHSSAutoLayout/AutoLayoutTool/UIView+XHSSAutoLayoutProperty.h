@@ -32,30 +32,30 @@ typedef enum : NSUInteger {
 
 
 typedef NS_OPTIONS(NSUInteger, XHSSLayoutPadingOption) {
-    Pading_None     = 0000,
-    Pading_Top      = 1 << 0,
-    Pading_Left     = 1 << 1,
-    Pading_Bottom   = 1 << 2,
-    Pading_Right    = 1 << 3,
-    Pading_All      = 1111,
+    Pading_None     = 0x00U,
+    Pading_Top      = (1UL << 0),
+    Pading_Left     = (1UL << 1),
+    Pading_Bottom   = (1UL << 2),
+    Pading_Right    = (1UL << 3),
+    Pading_All      = 0x0FU,
 };
 
 typedef NS_OPTIONS(NSUInteger, XHSSLayoutBorderOption) {
-    Border_None     = 0000,
-    Border_Top      = 1 << 0,
-    Border_Left     = 1 << 1,
-    Border_Bottom   = 1 << 2,
-    Border_Right    = 1 << 3,
-    Border_All      = 1111,
+    Border_None     = 0x00U,
+    Border_Top      = (1UL << 0),
+    Border_Left     = (1UL << 1),
+    Border_Bottom   = (1UL << 2),
+    Border_Right    = (1UL << 3),
+    Border_All      = 0x0FU,
 };
 
 typedef NS_OPTIONS(NSUInteger, XHSSLayoutMarginOption) {
-    Margin_None     = 0000,
-    Margin_Top      = 1 << 0,
-    Margin_Left     = 1 << 1,
-    Margin_Bottom   = 1 << 2,
-    Margin_Right    = 1 << 3,
-    Margin_All      = 1111,
+    Margin_None     = 0x00U,
+    Margin_Top      = (1UL << 0),
+    Margin_Left     = (1UL << 1),
+    Margin_Bottom   = (1UL << 2),
+    Margin_Right    = (1UL << 3),
+    Margin_All      = 0x0FU,
 };
 
 

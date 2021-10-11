@@ -95,9 +95,6 @@
 
 @end
 
-
-
-
 #pragma mark - ViewController
 @interface ViewController ()
 
@@ -108,11 +105,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    UIView* logleContainerView = [[UIView alloc] init];
-    logleContainerView.mainLayoutType = XHSSLayoutType_Row;
-    logleContainerView.mainAxisCrossAligment = XHSSLayoutAxisAligment_Center;
+    XHSSALRow* logleContainerView = [XHSSALRow create];
     logleContainerView.layoutWidth = CGRectGetWidth(self.view.frame);
     logleContainerView.layoutHeight = 40;
     [self.view addSubview:logleContainerView];
@@ -131,7 +125,7 @@
     logleText.marginLeftValue = 4;
     [logleContainerView addSubview:logleText];
     
-    [logleContainerView addSubview:[XHSSAutoLayoutConvenientWidgets flexSpace]];
+    [logleContainerView addSubview:[XHSSALFlexSpace create]];
     
     UIImageView* loginIcon = [[UIImageView alloc] init];
     loginIcon.image = [UIImage imageNamed:@"picture_1"];
@@ -149,10 +143,9 @@
     
     
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    UIView* topMenuContainerView = [[UIView alloc] init];
+    XHSSALRow* topMenuContainerView = [XHSSALRow create];
     topMenuContainerView.layoutWidth = CGRectGetWidth(self.view.frame);
     topMenuContainerView.layoutHeight = 118;
-    topMenuContainerView.mainLayoutType = XHSSLayoutType_Row;
     topMenuContainerView.isExpending = YES;
     [self.view addSubview:topMenuContainerView];
 
@@ -246,3 +239,4 @@
 }
 
 @end
+
